@@ -1,96 +1,81 @@
-
-
 .header {
-    margin: 0 auto;
-    display: flex;
-    
+   margin: 0 auto;
+   display: flex;
 
-    &__container {
-        justify-self: center;
-        width: 100%;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
+   &__container {
+      justify-self: center;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
 
-        &--hero {
-            background-image: url(../img/dark-city-night.jpg);
-            background-position: center;
-            background-repeat: no-repeat;
-            min-height: 50vh;
-            width: 100%;
-            display: flex;
-            padding-top: 8rem;
-            padding-bottom: 36rem;
-            
+      &--hero {
+         background-image: url(../img/dark-city-night.jpg);
+         background-position: center;
+         background-repeat: no-repeat;
+         min-height: 50vh;
+         width: 100%;
+         display: flex;
+         padding-top: 8rem;
+         padding-bottom: 36rem;
 
-            &-text {
-                align-self: center;
-                margin: 0 auto;
-                color: #fff;
-                padding: 4rem;
-                border: 3px solid #fff;
-                width: 75rem;
-                background-color: rgba(17, 17, 17, 0.911);
-                text-align: center;
-                align-items: center;
-
-
-            }
-        }
-
-        &--bottom {
-            width: 100%;
+         &-text {
+            align-self: center;
+            margin: 0 auto;
+            color: #fff;
+            padding: 4rem;
+            border: 3px solid #fff;
+            width: 75rem;
             background-color: rgba(17, 17, 17, 0.911);
-            display: flex;
-            padding: 6rem;
-            flex-direction: row;
+            text-align: center;
+            align-items: center;
+         }
+      }
 
-            &-text {
-                display: table;
-                height: 100%;
-                margin-left: auto;
-                //justify-content: center;
-                //flex-direction: column;
-                color: #fff;
-                width: 30%;
-                padding: 2rem;
-                
+      &--bottom {
+         width: 100%;
+         background-color: rgba(17, 17, 17, 0.911);
+         display: flex;
+         padding-top: 6rem;
+         padding-bottom: 6rem;
+         flex-direction: row;
 
-                h2 {
-                    font-weight: 400;
-                    padding-bottom: 1rem;
-                }
-                p {
-                    font-size: 2.5rem;
-                    font-weight: 300;
-                }
+         &-text {
+            display: table;
+            height: 100%;
+            margin-left: auto;
+            //justify-content: center;
+            //flex-direction: column;
+            color: #fff;
+            width: 30%;
+            padding: 2rem;
 
-
-                &-2 {
-                    margin-left: 0;
-                    margin-right: auto;
-                    border-left: 3px solid #fff;
-                    display: flex;
-                    ul {
-                        display: flex;
-                        font-size: 2.5rem;
-                        flex-direction: column;
-                        height: 100%;
-                        justify-content: center;
-                        
-                    }
-                    
-                }
+            h2 {
+               font-weight: 400;
+               padding-bottom: 1rem;
             }
-            
+            p {
+               font-size: 2.5rem;
+               font-weight: 300;
+            }
 
-        }
-
-        
-
-    }
+            &-2 {
+               margin-left: 0;
+               margin-right: auto;
+               border-left: 3px solid #fff;
+               display: flex;
+               ul {
+                  display: flex;
+                  font-size: 2.5rem;
+                  flex-direction: column;
+                  height: 100%;
+                  justify-content: center;
+               }
+            }
+         }
+      }
+   }
 }
-
 
 // @media only screen and (min-width: 2000px) {
 

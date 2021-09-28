@@ -259,6 +259,9 @@ h3 {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .project__card {
@@ -282,7 +285,6 @@ h3 {
   margin-bottom: 2rem;
   background-image: url("./img/ds-1-edit.png");
   background-size: cover;
-  margin-left: auto;
 }
 
 @media (min-width: 768px) {
@@ -338,8 +340,6 @@ h3 {
 .project__card-2 {
   background-image: url(./img/GreenPokemon.png);
   background-position: center;
-  margin-left: 0;
-  margin-right: auto;
 }
 
 .project__card-3 {
@@ -351,7 +351,5 @@ h3 {
 .project__card-4 {
   background-image: url(./img/BitterSweetCoff.png);
   background-position: center;
-  margin-left: 0;
-  margin-right: auto;
 }
 /*# sourceMappingURL=main.css.map */

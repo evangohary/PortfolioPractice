@@ -57,7 +57,7 @@ h3 {
 }
 
 .header__container--hero {
-  background-image: url(../img/dark-city-night.jpg);
+  background-image: url(./img/dark-city-night.jpg);
   background-position: center;
   background-repeat: no-repeat;
   min-height: 50vh;
@@ -165,7 +165,7 @@ h3 {
 }
 
 .header__container--hero {
-  background-image: url(../img/dark-city-night.jpg);
+  background-image: url(./img/dark-city-night.jpg);
   background-position: center;
   background-repeat: no-repeat;
   min-height: 50vh;
@@ -280,7 +280,7 @@ h3 {
   text-decoration: none;
   margin: 2rem;
   margin-bottom: 2rem;
-  background-image: url("../img/ds-1-edit.png");
+  background-image: url("./img/ds-1-edit.png");
   background-size: cover;
   margin-left: auto;
 }
@@ -336,20 +336,20 @@ h3 {
 }
 
 .project__card-2 {
-  background-image: url(../img/GreenPokemon.png);
+  background-image: url(./img/GreenPokemon.png);
   background-position: center;
   margin-left: 0;
   margin-right: auto;
 }
 
 .project__card-3 {
-  background-image: url(../img/V.GTraining.png);
+  background-image: url(./img/V.GTraining.png);
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .project__card-4 {
-  background-image: url(../img/BitterSweetCoff.png);
+  background-image: url(./img/BitterSweetCoff.png);
   background-position: center;
   margin-left: 0;
   margin-right: auto;
